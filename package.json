@@ -5,6 +5,7 @@
         "@symfony/webpack-encore": "^5.0.0",
         "bootstrap": "^5.3.8",
         "core-js": "^3.38.0",
+        "cypress": "^15.1.0",
         "regenerator-runtime": "^0.13.9",
         "sass": "^1.92.0",
         "sass-loader": "^16.0.5",
