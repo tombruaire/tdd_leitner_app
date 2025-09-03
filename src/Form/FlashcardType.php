@@ -31,8 +31,12 @@ class FlashcardType extends AbstractType
                 ],
             ])
             ->add('box', EntityType::class, [
+                'label' => 'Box',
                 'class' => Box::class,
                 'choice_label' => 'id',
+                'attr' => [
+                    'class' => 'form-select',
+                ],
             ])
             ->add('submit', SubmitType::class, [
                 'label' => 'Valider',
